@@ -78,7 +78,7 @@ def download_note(webLink: str, nodeTitle: str):
     file = open(nodePath + "\\" + nodeTitle + ".md", "w", encoding='utf-8')  # 'w' 表示写入模式（覆盖原有内容）
     file.write(response.text)
     file.close()  
-    return response.text
+    return "笔记已经下载完成啦, 保存在: " + nodePath + "\\" + nodeTitle + ".md"
 
 
 @mcp.tool()
