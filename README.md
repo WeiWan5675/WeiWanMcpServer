@@ -103,6 +103,10 @@ def overwrite_note(content: str, nodeTitle: str):
 2. **多平台支持**：适配更多笔记软件（如Notion、Logseq）。
 3. **性能优化**：提升检索和下载速度。
 
+## **功能截图**
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 ---
 
 **结语**  
